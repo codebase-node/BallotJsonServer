@@ -1,0 +1,151 @@
+{
+  "peoples": [
+    {
+      "id": 1,
+      "name": "arossmal",
+      "phone": 100000
+    },
+    {
+      "id": 2,
+      "name": "adarsh",
+      "phone": 100000
+    },
+    {
+      "id": 3,
+      "name": "arun",
+      "phone": 100000
+    },
+    {
+      "id": 4,
+      "name": "deepu",
+      "phone": 454545
+    },
+    {
+      "id": 5,
+      "name": "arwedfdomal",
+      "phone": 100000
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "postTitle": "New Post",
+      "postDecription": "Hello new post",
+      "peopleId": 1
+    },
+    {
+      "id": 2,
+      "postTitle": "India",
+      "postDecription": "india is great country",
+      "peopleId": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "first comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "second comment",
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "body": "Yes india is great country",
+      "postId": 2
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "postId": 2,
+      "name": "agree"
+    },
+    {
+      "id": 2,
+      "postId": 2,
+      "name": "disagree"
+    },
+    {
+      "id": 3,
+      "postId": 2,
+      "name": "dont know"
+    }
+  ],
+  "votes": [
+    {
+      "postId": 1,
+      "voteCount": 30,
+      "results": {
+        "message": "Your are a democrate",
+        "total": [
+          {
+            "name": "democrate",
+            "value": 20
+          },
+          {
+            "name": "republic",
+            "value": 30
+          }
+        ]
+      }
+    },
+    {
+      "postId": 2,
+      "voteCount": 50,
+      "results": {
+        "message": "Your are an Indian",
+        "total": [
+          {
+            "name": "Indian",
+            "value": 20
+          },
+          {
+            "name": "Czech",
+            "value": 30
+          }
+        ]
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "postId": 1,
+      "name": "Modi",
+      "description": "Narendra Damodardas Modi is the 15th and current Prime Minister of India, in office since 26 May 2014. Modi, a leader of the Bharatiya Janata Party was the Chief Minister of Gujarat from 2001 to 2014 and is the Member of Parliament from Varanasi",
+      "image": "https://goo.gl/O0ThfH"
+    },
+    {
+      "postId": 1,
+      "name": "Obama",
+      "description": "Barack Hussein Obama II is an American politician serving as the 44th President of the United States, and the first African American to hold the office",
+      "image": "https://goo.gl/t6jKpW"
+    },
+    {
+      "postId": 1,
+      "name": "Sachin",
+      "description": "",
+      "image": "https://goo.gl/O0ThfH"
+    },
+    {
+      "postId": 1,
+      "name": "Mohanlal",
+      "description": "",
+      "image": "https://goo.gl/t6jKpW"
+    },
+    {
+      "postId": 1,
+      "name": "Arnold",
+      "description": "",
+      "image": "https://goo.gl/O0ThfH"
+    },
+    {
+      "postId": 1,
+      "name": "Bill Gates",
+      "description": "",
+      "image": "https://goo.gl/t6jKpW"
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+[
+  /* registration
+
+ Method - POST /users/signup
+
+
+ */
+  //request json
+  {
+    "firstname": "Aromal",
+    "lastname": "Sasidharan",
+    "email": "aromalsasidharan@gmail.com",
+    "userType": 0,
+    //0 - personal , 1 - company
+    "dob": "31-3-1988",
+    "passoword": "xxxxxx",
+    "facebookId": "facebook_id",
+    //optional
+    "twitterId": "twitter_id",
+    //optional
+    "profileType": 0
+    // default 0, 0 - public profile, 1 private profile
+  },
+  // registration json response
+  {
+    // the meta contain error codes in case of any errors
+
+    "meta": {
+      "status": "ok",
+      "code": 200,
+      "message": "Successfull"
+    },
+    "user": {
+      "id": 4345435,
+      "firstname": "Aromal",
+      "lastname": "Sasidharan",
+      "email": "aromalsasidharan@gmail.com",
+      "userType": 0,
+      //0 - personal , 1 - company
+      "dob": "31-3-1988",
+      "passoword": "xxxxxx",
+      "facebook_id": "facebook_id",
+      //optional
+      "twitter_id": "twitter_id",
+      //optional
+      "profileType": 0
+      // default 0, 0 - public profile, 1 private profile
+      "profileImage": "http://xyz/abc.jpg",
+      "pushnotificationEnabled": false
+    }
+  },
+  /* email check - check for existing email
+
+  Method - POST /users/validate?email=xyz@gmail.com
+
+
+  */
+  //response
+  {
+    "meta": {
+      "status": "ok",
+      "code": 200,
+      // 200 - email valid , 400 - email not valid, 500 - API error
+      "message": "email valid"
+    }
+  },
+  /* change password -
+
+  Method - POST /users/updatepassword
+
+
+  */
+  //request
+  {
+    "oldPassword": "xxxxxxx",
+    "newPassword": "dmkdlmldk"
+  },
+  //response
+  {
+    "meta": {
+      "status": "ok",
+      "code": 200,
+      // 200 - password change successfull , 400 - password change failed, 500 - API error
+      "message": "Password change successfull"
+    }
+  },
+  /* forgot password -
+
+  Method - POST /users/forgetpassword?email=xyz@gmail.com
+
+
+  */
+  //request
+
+  //response
+  {
+    "meta": {
+      "status": "ok",
+      "code": 200,
+      // 200 - email was sent with new password , 400 - user with email not found, 500 - API error
+      "message": "email was sent with new password"
+    }
+  },
+  /*list all posts - should list posts of user i follow
+
+  Method - GET /posts?_start=0&limit=10
+  */
+
+  // request
+
+
+  // response
+  {
+    "meta": {
+      "status": "ok",
+      "code": 200,
+      "message": ""
+    },
+    "posts": [
+      {
+        "id": 2323,
+        "title": "Are you a democrate?",
+        "description": "Take this short survey to discover if you are more on democratic or republician",
+        "type": 1,
+        // 1 - Survey, 2 - Personal
+        "isVotedByMe": true,
+        "participants": 300,
+        "viwersCount": 100,
+        "user": {
+          /* created by user*/
+          "id": 43545345,
+          "fullname": "Adarsh Vc",
+          "profilePic": "/xyx/abc.png"
+        },
+        "catogerie": "",
+        "location": "",
+        "date": "",
+        "customFields": [
+          "xyz",
+          "abc",
+          "efg"
+        ]
+      },
+      {
+        "id": 2324,
+        "title": "Are you a democrate?",
+        "description": "Take this short survey to discover if you are more on democratic or republician",
+        "type": 1,
+        // 1 - Survey, 2 - Personal
+        "isVotedByMe": true,
+        "participants": 300,
+        "viwersCount": 100,
+        "user": {
+          "id": 43545345,
+          "fullname": "Adarsh Vc",
+          "profilePic": "/xyx/abc.png"
+        },
+        "catogerie": "",
+        "location": "",
+        "date": "",
+        "customFields": [
+          "xyz",
+          "abc",
+          "efg"
+        ]
+      }
+    ]
+  },
+  /*Post details api
+
+  Method - GET /posts/{post_id}
+  Parameters - candidateLimit // This specifies the no of candidates to be returned in the response
+  */
+
+  // request
+
+
+  // response
+  {
+    "meta": {
+      "status": "ok",
+      "code": 200,
+      "message": ""
+    },
+    "post": {
+      "id": 2323,
+      "title": "Are you a democrate?",
+      "description": "Take this short survey to discover if you are more on democratic or republician",
+      "type": 1,
+      // 1 - Survey, 2 - Personal
+
+      "cadidateCount": 30,
+      "candidates": [
+        {
+          "id": 2323,
+          "name": "Obama",
+          "profilePic": "/xyx/abc.png",
+          "description": ""
+        },
+        {
+          "id": 2323,
+          "name": "Obama",
+          "profilePic": "/xyx/abc.png",
+          "description": ""
+        }
+      ],
+      "participants": 300,
+      "viwersCount": 100,
+      "user": {
+        /* created by user*/
+        "id": 43545345,
+        "fullname": "Adarsh Vc",
+        "profilePic": "/xyx/abc.png"
+      },
+      "catogerie": "",
+      "location": "",
+      "date": "",
+      "customFields": [
+        "xyz",
+        "abc",
+        "efg"
+      ],
+      "questions": [
+        {
+          "id": 2324,
+          "description": "Obama is a good person",
+          "options": [
+            {
+              "id": 2332,
+              "title": "Agree"
+            },
+            {
+              "id": 2332,
+              "title": "Disgaree"
+            },
+            {
+              "id": 2332,
+              "title": "Strongly Disagree"
+            }
+          ]
+        },
+        {
+          "id": 2324,
+          "description": "Obama is a bad person",
+          "options": [
+            {
+              "id": 2332,
+              "title": "Agree"
+            },
+            {
+              "id": 2332,
+              "title": "Disgaree"
+            },
+            {
+              "id": 2332,
+              "title": "Strongly Disagree"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  /*Candiadtes list api
+
+  Method - GET /posts/{post_id}/candidates
+  Parameters - _start , _limit , _end
+  */
+
+  // request
+
+
+  // response
+
+  {
+    "meta": {
+      "status": "ok",
+      "code": 200,
+      "message": ""
+    },
+    "totalListCount": 100,
+    "candidates": [
+      {
+        "id": 2323,
+        "name": "Obama",
+        "profilePic": "/xyx/abc.png",
+        "description": ""
+      },
+      {
+        "id": 2323,
+        "name": "Obama",
+        "profilePic": "/xyx/abc.png",
+        "description": ""
+      }
+    ],
+]
