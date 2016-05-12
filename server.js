@@ -17,9 +17,9 @@ router.render = function (req, res) {
 
 
 
-server.use('/', function(req, res, next) {
-    setTimeout(next, 5000)
-})
+// server.use('/', function(req, res, next) {
+//     setTimeout(next, 5000)
+// })
 
 
 server.use(jsonServer.defaults()); // logger, static and cors middlewares
