@@ -1,0 +1,59 @@
+{
+  "poll": {
+    "id": 4,
+    "title": "Are you a Asian? Are you a Asian? Are you a Asian? Are you a Asian? Are you a Asian?",
+    "details": "Take this short survey to discover if you are more on democratic or republician, Take this short survey to discover if you are more on democratic or republician, Take this short survey to discover if you are more on democratic or republician",
+    "isSurvey": false,
+    "isVotedByMe": true,
+    "participants": 300,
+    "viwersCount": 100,
+    "userId": 4,
+    "category": "",
+    "location": "",
+    "date": "",
+    "candidatesCount": 32,
+    "candidates": [
+      {
+        "name": "Obama",
+        "details": "He is the president of US",
+        "profileImage": "http://www.ontheissues.org/Barack_Obama.jpg"
+      },
+      {
+        "name": "Modi",
+        "details": "He is the PM of India",
+        "profileImage": "http://www.profilebeans.com/profile/large/thumb_98467_narendra%20modi-profile.jpg"
+      },
+      {
+        "name": "DMK",
+        "details": "Policical party of  Tamilnadu leaded by Karunanathi",
+        "profileImage": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg"
+      }
+    ],
+    "customFields": [
+      "xyz",
+      "abc",
+      "efg",
+      "xyz",
+      "abc",
+      "efg"
+    ],
+
+    "possibelAnswers": [
+      "abc",
+      "efg",
+      "dfdf"
+    ],
+    "questions": [
+      {
+        "title": "Are you in India?",
+        "options" : ["yes","no","maybe"],
+        "map" : ["0","1","4"]
+      },
+      {
+        "title": "Are you in India?",
+        "options" : ["yes","no","maybe"],
+        "map" : ["0","1","4"]
+      }
+    ]
+  }
+}

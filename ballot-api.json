@@ -4,37 +4,36 @@
       "id": 1,
       "name": "Aromal Sasidharan",
       "facebookId": "njdnfjdnv334",
-      "profilePic": "/xyx/abc.png",
+      "profileImage": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg",
       "twitterId": ""
     },
     {
       "id": 2,
       "name": "Adarsh vc",
       "facebookId": "njdnfjdnv334",
-      "profilePic": "/xyx/abc.png",
-      "twitterId": "dfdfdf"
+      "profileImage": "http://www.profilebeans.com/profile/large/thumb_98467_narendra%20modi-profile.jpg"
     },
     {
       "id": 3,
-      "name": "Kisgore",
+      "name": "Kishore",
       "facebookId": "njdnfjdnv334",
       "twitterId": "",
-      "profilePic": "/xyx/abc.png"
+      "profileImage": "http://www.ontheissues.org/Barack_Obama.jpg"
     },
     {
       "id": 4,
       "name": "Deepu S Nath",
       "facebookId": "njdnfjdnv334",
       "twitterId": "090394034",
-      "profilePic": "/xyx/abc.png"
+      "profileImage": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSdkV1Aedflmm_GHKkSkfmO7e-4BjgJi7J5O-wqercJP6NpoUvIKQ"
     }
   ],
   "polls": [
     {
-      "id": 2323,
+      "id": 1,
       "title": "Are you a democrate?",
       "details": "Take this short survey to discover if you are more on democratic or republician",
-      "type": 1,
+      "isSurvey": false,
       "isVotedByMe": true,
       "participants": 300,
       "viwersCount": 100,
@@ -42,6 +41,7 @@
       "catogerie": "",
       "location": "",
       "date": "",
+      "candidatesCount": 12,
       "customFields": [
         "xyz",
         "abc",
@@ -52,14 +52,17 @@
       "id": 2,
       "title": "Are you a indian?",
       "details": "Take this short survey to discover if you are more on democratic or republician",
-      "type": 3,
+      "isSurvey": true,
       "isVotedByMe": true,
       "participants": 300,
       "viwersCount": 100,
+      "dataAdded": "22/2/2015",
+      "dateUpdate": "22/2/2015",
       "userId": 2,
       "catogerie": "",
       "location": "",
       "date": "",
+      "candidatesCount": 20,
       "customFields": [
         "xyz",
         "abc",
@@ -67,10 +70,10 @@
       ]
     },
     {
-      "id": 4,
-      "title": "Are you a Asian?",
-      "details": "Take this short survey to discover if you are more on democratic or republician",
-      "type": 2,
+      "id": 3,
+      "title": "Are you a Asian? Are you a Asian? Are you a Asian? Are you a Asian? Are you a Asian?",
+      "details": "Take this short survey to discover if you are more on democratic or republician, Take this short survey to discover if you are more on democratic or republician, Take this short survey to discover if you are more on democratic or republician",
+      "isSurvey": false,
       "isVotedByMe": true,
       "participants": 300,
       "viwersCount": 100,
@@ -78,18 +81,21 @@
       "catogerie": "",
       "location": "",
       "date": "",
-
+      "candidatesCount": 1,
       "customFields": [
+        "xyz",
+        "abc",
+        "efg",
         "xyz",
         "abc",
         "efg"
       ]
     },
     {
-      "id": 6,
+      "id": 4,
       "title": "Are you a democrate?",
       "details": "Take this short survey to discover if you are more on democratic or republician",
-      "type": 2,
+      "isSurvey": true,
       "isVotedByMe": true,
       "participants": 300,
       "viwersCount": 100,
@@ -97,6 +103,7 @@
       "catogerie": "",
       "location": "",
       "date": "",
+      "candidatesCount": 5,
       "customFields": [
         "xyz",
         "abc",
@@ -104,34 +111,261 @@
       ]
     }
   ],
-  "candidates": [
+  "possibleanswers": [
     {
       "id": 1,
-      "pollId": 6,
-      "name": "Obama",
-      "details": "He is the president of US",
-      "profilePic": "http://www.ontheissues.org/Barack_Obama.jpg"
+      "name": "abc",
+      "pollId": 1
     },
     {
       "id": 2,
-      "pollId": 6,
-      "name": "Modi",
-      "details": "He is the PM of India",
-      "profilePic": "http://www.profilebeans.com/profile/large/thumb_98467_narendra%20modi-profile.jpg"
+      "name": "xyz",
+      "pollId": 2
+    }
+  ],
+  "candidates": [
+    {
+      "pollId": 2,
+      "name": "Obama",
+      "details": "He is the president of US He is the president of US He is the president of US He is the president of US He is the president of US He is the president of US He is the president of US",
+      "profileImage": "http://www.ontheissues.org/Barack_Obama.jpg"
     },
     {
-      "id": 1,
+      "pollId": 2,
+      "name": "Modi",
+      "details": "He is the PM of India",
+      "profileImage": "http://www.profilebeans.com/profile/large/thumb_98467_narendra%20modi-profile.jpg"
+    },
+    {
       "pollId": 2,
       "name": "DMK",
       "details": "Policical party of  Tamilnadu leaded by Karunanathi",
-      "profilePic": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg"
+      "profileImage": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg"
+    },
+    {
+      "pollId": 2,
+      "name": "Obama",
+      "details": "He is the president of US",
+      "profileImage": "http://www.ontheissues.org/Barack_Obama.jpg"
+    },
+    {
+      "pollId": 2,
+      "name": "Modi",
+      "details": "He is the PM of India",
+      "profileImage": "http://www.profilebeans.com/profile/large/thumb_98467_narendra%20modi-profile.jpg"
+    },
+    {
+      "pollId": 2,
+      "name": "DMK",
+      "details": "Policical party of  Tamilnadu leaded by Karunanathi",
+      "profileImage": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg"
+    },
+    {
+      "pollId": 2,
+      "name": "Obama",
+      "details": "He is the president of US",
+      "profileImage": "http://www.ontheissues.org/Barack_Obama.jpg"
+    },
+    {
+      "pollId": 2,
+      "name": "Modi",
+      "details": "He is the PM of India",
+      "profileImage": "http://www.profilebeans.com/profile/large/thumb_98467_narendra%20modi-profile.jpg"
+    },
+    {
+      "pollId": 2,
+      "name": "DMK",
+      "details": "Policical party of  Tamilnadu leaded by Karunanathi",
+      "profileImage": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg"
+    },
+    {
+      "pollId": 2,
+      "name": "Obama",
+      "details": "He is the president of US",
+      "profileImage": "http://www.ontheissues.org/Barack_Obama.jpg"
+    },
+    {
+      "pollId": 2,
+      "name": "Modi",
+      "details": "He is the PM of India",
+      "profileImage": "http://www.profilebeans.com/profile/large/thumb_98467_narendra%20modi-profile.jpg"
+    },
+    {
+      "pollId": 2,
+      "name": "DMK",
+      "details": "Policical party of  Tamilnadu leaded by Karunanathi",
+      "profileImage": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg"
+    },
+    {
+      "pollId": 1,
+      "name": "Obama",
+      "details": "He is the president of US",
+      "profileImage": "http://www.ontheissues.org/Barack_Obama.jpg"
+    },
+    {
+      "pollId": 1,
+      "name": "Modi",
+      "details": "He is the PM of India",
+      "profileImage": "http://www.profilebeans.com/profile/large/thumb_98467_narendra%20modi-profile.jpg"
+    },
+    {
+      "pollId": 1,
+      "name": "DMK",
+      "details": "Policical party of  Tamilnadu leaded by Karunanathi",
+      "profileImage": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg"
+    },
+    {
+      "pollId": 1,
+      "name": "Obama",
+      "details": "He is the president of US",
+      "profileImage": "http://www.ontheissues.org/Barack_Obama.jpg"
+    },
+    {
+      "pollId": 1,
+      "name": "Modi",
+      "details": "He is the PM of India",
+      "profileImage": "http://www.profilebeans.com/profile/large/thumb_98467_narendra%20modi-profile.jpg"
+    },
+    {
+      "pollId": 4,
+      "name": "DMK",
+      "details": "Policical party of  Tamilnadu leaded by Karunanathi",
+      "profileImage": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg"
+    },
+    {
+      "pollId": 4,
+      "name": "Obama",
+      "details": "He is the president of US",
+      "profileImage": "http://www.ontheissues.org/Barack_Obama.jpg"
+    },
+    {
+      "pollId": 4,
+      "name": "Modi",
+      "details": "He is the PM of India",
+      "profileImage": "http://www.profilebeans.com/profile/large/thumb_98467_narendra%20modi-profile.jpg"
+    },
+    {
+      "pollId": 4,
+      "name": "DMK",
+      "details": "Policical party of  Tamilnadu leaded by Karunanathi",
+      "profileImage": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg"
+    },
+    {
+      "pollId": 1,
+      "name": "Obama",
+      "details": "He is the president of US",
+      "profileImage": "http://www.ontheissues.org/Barack_Obama.jpg"
+    },
+    {
+      "pollId": 1,
+      "name": "Modi",
+      "details": "He is the PM of India",
+      "profileImage": "http://www.profilebeans.com/profile/large/thumb_98467_narendra%20modi-profile.jpg"
+    },
+    {
+      "pollId": 3,
+      "name": "DMK",
+      "details": "Policical party of  Tamilnadu leaded by Karunanathi",
+      "profileImage": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg"
+    }
+  ],
+  "following": [
+    {
+      "id": 1,
+      "name": "XYZ",
+      "facebookId": "njdnfjdnv334",
+      "status": 1,
+      "status-info": "// 1 - Request Send 2 - Following 3 - Request Received 4 - Not Following",
+      "profileImage": "http://www.ontheissues.org/Barack_Obama.jpg",
+      "address": "Orange County, CA1"
     },
     {
       "id": 2,
-      "pollId": 2,
-      "name": "UDF",
-      "details": "Political party of Kerala",
-      "profilePic": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSdkV1Aedflmm_GHKkSkfmO7e-4BjgJi7J5O-wqercJP6NpoUvIKQ"
+      "name": "XYZ2",
+      "facebookId": "njdnfjdnv334",
+      "status": 1,
+      "profileImage": "http://www.ontheissues.org/Barack_Obama.jpg",
+      "address": "Orange County, CA2"
+    },
+    {
+      "id": 3,
+      "name": "XYZ3",
+      "facebookId": "njdnfjdnv334",
+      "profileImage": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg",
+      "status": 1,
+      "address": "Orange County, CA3"
+    },
+    {
+      "id": 4,
+      "name": "XYZ4",
+      "facebookId": "njdnfjdnv334",
+      "profileImage": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg",
+      "status": 1,
+      "address": "Orange County, CA4"
+    },
+    {
+      "id": 5,
+      "name": "XYZ5",
+      "facebookId": "njdnfjdnv334",
+      "profileImage": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg",
+      "status": 1,
+      "address": "Orange County, CA5"
+    },
+    {
+      "id": 6,
+      "name": "XYZ6",
+      "facebookId": "njdnfjdnv334",
+      "profileImage": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg",
+      "status": 1,
+      "address": "Orange County, CA6"
+    },
+    {
+      "id": 7,
+      "name": "XYZ7",
+      "facebookId": "njdnfjdnv334",
+      "profileImage": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg",
+      "status": 1,
+      "address": "Orange County, CA7"
+    },
+    {
+      "id": 8,
+      "name": "XYZ8",
+      "facebookId": "njdnfjdnv334",
+      "profileImage": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg",
+      "status": 1,
+      "address": "Orange County, CA8"
+    },
+    {
+      "id": 9,
+      "name": "XYZ9",
+      "facebookId": "njdnfjdnv334",
+      "profileImage": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg",
+      "status": 1,
+      "address": "Orange County, CA9"
+    },
+    {
+      "id": 10,
+      "name": "XYZ10",
+      "facebookId": "njdnfjdnv334",
+      "profileImage": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg",
+      "status": 1,
+      "address": "Orange County, CA10"
+    },
+    {
+      "id": 11,
+      "name": "XYZ11",
+      "facebookId": "njdnfjdnv334",
+      "profileImage": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg",
+      "status": 1,
+      "address": "Orange County, CA11"
+    },
+    {
+      "id": 12,
+      "name": "XYZ12",
+      "facebookId": "njdnfjdnv334",
+      "profileImage": "http://sim05.in.com/25/36989552d8666a4b579b43761d8a2f0b_m.jpg",
+      "status": 1,
+      "address": "Orange County, CA12"
     }
   ]
 }
