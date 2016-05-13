@@ -17,6 +17,15 @@ router.render = function (req, res) {
 
 
 
+server.use('/v1', router)
+
+
+server.use(jsonServer.rewriter({
+    '/users/:id/following': '/following',
+    '/users/:id/followers': '/followers'
+
+}))
+
 // server.use('/', function(req, res, next) {
 //     setTimeout(next, 5000)
 // })
