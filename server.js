@@ -1,7 +1,7 @@
 var jsonServer = require('json-server');
 
 var server = jsonServer.create(); // Returns an Express server
-var router = jsonServer.router('ballot-api.json'); // Returns an Express router
+var router = jsonServer.router('./ballot-api.json'); // Returns an Express router
 
 router.render = function (req, res) {
     res.jsonp({
